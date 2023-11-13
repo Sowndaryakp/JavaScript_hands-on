@@ -124,25 +124,107 @@
 // " \t \n" - 2 //-2
 
 // Task
-let a =  prompt("First number?",1);
-let b = prompt("Second number?",2);
-alert(+a + +b);
+// let a =  prompt("First number?",1);
+// let b = prompt("Second number?",2);
+// alert(+a + +b);
 
 //Comparisions
-let res=5>4;
-console.log(res);
-//Boolean Comparision
-alert('Z'>'A');
+// let res=5>4;
+// console.log(res);
+// //Boolean Comparision
+// alert('Z'>'A');
 
-//comparision of different types
-alert('2'>1);
-alert('01'>1);
+// //comparision of different types
+// alert('2'>1);
+// alert('01'>1);
 
-//Task
-5 > 4 //t
-"apple" > "pineapple"//f
-"2" > "12"//t
-undefined == null//t
-undefined === null//f
-null == "\n0\n"//f
-null === +"\n0\n"//f
+// //Task
+// 5 > 4 //t
+// "apple" > "pineapple"//f
+// "2" > "12"//t
+// undefined == null//t
+// undefined === null//f
+// null == "\n0\n"//f
+// null === +"\n0\n"//f
+
+//Conditional branching: if, '?'
+// // let result = condition ?value1: value2;
+// let age = 22;
+// let accessAllowed = (age>18)? true: false;
+// console.log(accessAllowed);
+
+// // let message = (age<3)?'Hi, Baby!': (age<18)? 'Hello!': (age<100)? 'Greetings!': 'what an unusual age!';
+// // console.log(message);
+
+// if(age<3){
+//     message='Hi, Baby!';
+// }else if(age<18){
+//     message='Hello!';
+// }else if(age<100){
+//     message='Greetings!';
+// }else{
+//     message='what an unusal age!';
+// }
+// console.log(message);
+
+// // let company = prompt('Which company created JavaSCript?', '');
+// let company = 'Nothing';
+// if(company == 'Netscape'){
+//     console.log(true);
+// }else{
+//     console.log(false);
+// }
+
+// //Task if (a string with zero)
+// if("0"){
+//     console.log('Hello');
+// }
+
+// Using the if..else construct, write the code which asks: ‘What is the “official” name of JavaScript?’
+// If the visitor enters “ECMAScript”, then output “Right!”, otherwise – output: “You don’t know? ECMAScript!”
+
+// 'use strict';
+// let value = 'ECMA';
+// if(value=='ECMAScript'){
+//     console.log("Right");
+// }else{
+//     console.log(`you don't know? ECMAScript!`);
+// }
+
+// Using if..else, write the code which gets a number via prompt and then shows in alert:
+// 1, if the value is greater than zero,
+// -1, if less than zero,
+// 0, if equals zero.
+// let value = 0;
+// if(value==0){
+//     console.log('0 is equals to zero!');
+// }else if(value<0){
+//     console.log('value is greater than zero');
+// }else{
+//     console.log('less than zero');
+// }
+
+// let message=(login=='Employee')? 'Hello': (login == 'Director')?'Greetings':(login=='')?'no login':'';
+
+//Logical operators
+// OR(||) operator
+// let hour = 9;
+// if (hour < 10 || hour > 18) {
+//   alert( 'The office is closed.' );
+// }
+
+// AND(&&) operator
+// let hour=12;
+// let minute=30;
+// if(hour == 12 && minute== 30){
+//     console.log('The time is 12:30');
+// }
+
+// NOT(!) operator
+console.log(!true);
+console.log(!0);
+
+//task
+console.log(null || 2 || undefined);
+
+console.log(alert(1) || 2 || alert(3));
