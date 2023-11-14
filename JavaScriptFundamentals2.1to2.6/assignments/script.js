@@ -1,48 +1,75 @@
-// alert("Haiii");
+// ASSIGNMENT 01
+// 1. Write a JavaScript program that calculates the area of a rectangle. The program should take the length and width of the rectangle as input, and then output the area of the rectangle.
+// let area;
+// let length =prompt('enter the length');// float conversion
+// let width=prompt('enter the width');
+// area=+length +  +width;
+// alert(area);
 
-// let $="john";
-// alert($);
-// let _="jo";
-// alert(_);
-// let _cmtiSoftware="hj";
-// alert(_Av);
+// 2. Write a JavaScript program that simulates a simple calculator. The program should take two numbers as input and an operator (+, -, *, or /), and then perform the corresponding operation on the numbers.
+// let num1 = prompt('Enter number 1');
+// let num2 = prompt('Enter number 2');
+// let operator = prompt('Enter operators +, -, *, /');
 
-// function add(a,b){
-// let res = a+b;
-// let x=2*a;
-// let y=2*b;
-// console.log(x, y);//2,6
-// if(true){
-//     let x=3*a;
-//     let y=3*b; 
-//     console.log(x, y);//3,9
+// if(isNaN(num1) || isNaN(num2)){
+//     alert("please enter valid numbers");
+// }else{
+//     switch(operator){
+//         case "+": alert("Result:"+(+num1 + +num2));
+//             break;
+//         case "-": alert("Result:"+(num1 - num2));
+//             break;
+//         case "*": alert("Result:"+(num1 * num2));
+//             break;
+//         case "/":
+//             //  alert("Result:"+(num1/num2));
+//             // break;   
+//             if(num2 !== 0){
+//                 alert("Result:"+(num1/num2));
+//             }else{
+//                 alert("Cannot divide by zero.");
+//             }
+//             break;
+//         default:
+//             alert("Invalid operator, Please use +, -, *, or /.");
+//     }
 // }
-// console.log(x, y);//2 6
-// return res;
+
+// 3. Write a JavaScript program that takes two numbers as input and prints their sum, Differenceerence, productuct, and quotientient. Use Differenceerent primitive data types (number, string, boolean) to store the results.
+// var num1=prompt("Enter the first number:");
+// var num2=prompt("Enter the second number:");
+
+// if(isNaN(num1)||isNaN(num2)){
+//     console.log("Enetr valid numbers");
+// }else{
+//     let sum = +num1 + +num2;
+//     let Difference = num1 - num2;
+//     let product = num1 * num2;
+//     let quotient = num1 / num2;
+    
+//     console.log("Sum: "+ sum + "type: "+typeof sum + ")");
+//     console.log("Dif: "+ Difference + "type: "+typeof Difference + ")");
+//     console.log("product: "+ product + "type: "+typeof product + ")");
+//     console.log("quotient: "+ quotient + "type: "+typeof quotient + ")");
 // }
-// add(1,3);
 
+// 4. Write a JavaScript program that takes a string as input and checks if it is a palindrome (a word or phrase that reads the same backward as forward).
+// let input=prompt("Enter a string:");
 
-const a= 15326;
-let again = a;
-console.log(again);//12312
-console.log(a);//123213
+// 5. Write a JavaScript program that takes a number as input and checks if it is even or odd.
+// let number=prompt("enter a number:");
+// if(number %2 === 0){
+//     alert(number + " is an even number");
+// }else{
+//     alert(number + " is an odd number");
+// }
 
-again=12;
-console.log(again);//12
-console.log(a);//1212432
+// //6. Write a JavaScript program that takes a string as input and converts it to uppercase.
+// let inputString=prompt("enter an input string");
+// alert(inputString.toUpperCase());
 
-let obj = {
-    name: "John",
-    age: 30,
-};
+//7.Write a JavaScript program that takes a string as input and removes all vowels from the string.
+// let inputString =prompt("enter a input string");
+// alert(inputString.replace(/[aeiou]/gi,""));
 
-let obj2 = obj; 
-console.log(obj.name);//j
-console.log(obj2.name);//j
-obj2.name = "nihal";
-console.log(obj.name);//j   //n
-console.log(obj2.name);//n
-
-
-
+// ASSIGNMENT 02
