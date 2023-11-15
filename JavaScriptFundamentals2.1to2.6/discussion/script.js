@@ -23,26 +23,39 @@
 // add(1,3);
 
 
-const a= 15326;
-let again = a;
-console.log(again);//12312
-console.log(a);//123213
+// const a= 15326;
+// let again = a;
+// console.log(again);//12312
+// console.log(a);//123213
 
-again=12;
-console.log(again);//12
-console.log(a);//1212432
+// again=12;
+// console.log(again);//12
+// console.log(a);//1212432
 
-let obj = {
-    name: "John",
-    age: 30,
-};
+// let obj = {
+//     name: "John",
+//     age: 30,
+// };
 
-let obj2 = obj; 
-console.log(obj.name);//j
-console.log(obj2.name);//j
-obj2.name = "nihal";
-console.log(obj.name);//j   //n
-console.log(obj2.name);//n
+// let obj2 = obj; 
+// console.log(obj.name);//j
+// console.log(obj2.name);//j
+// obj2.name = "nihal";
+// console.log(obj.name);//j   //n
+// console.log(obj2.name);//n
 
 
 
+
+// let x= "0";
+// // let y=Number(x);
+// // console.log(y);
+// if(x){
+//     console.log('yes');
+// }else{
+//     console.log('no');
+// }
+
+let x = 1;
+let y = x++;
+console.log(x,y);
