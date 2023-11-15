@@ -1,15 +1,14 @@
 // 4. Write a JavaScript program that takes a string as input and checks if it is a palindrome
 //  (a word or phrase that reads the same backward as forward).
+const prompt= require("prompt-sync")();
 let input=prompt("Enter a string: ");
 let x=input.length;
-
 if(goo(input)){
-    alert("palindrome");
+    console.log("palindrome");
 }
 else{
-    alert("not a palindrome");
+    console.log("not a palindrome");
 }
-
 function goo (input){
     for(let i=0;i<(x-1)/2;i++)
     {
