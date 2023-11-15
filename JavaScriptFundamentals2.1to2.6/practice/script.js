@@ -221,15 +221,15 @@
 // }
 
 // NOT(!) operator
-console.log(!true);
-console.log(!0);
+// console.log(!true);
+// console.log(!0);
 
-//tasks
-console.log(null || 2 || undefined);
-console.log(alert(1) || 2 || alert(3));
-console.log(1&&null&&2);
-alert(alert(1)&&alert(2));
-alert(null || 2 && 3 || 4);
+// //tasks
+// console.log(null || 2 || undefined);
+// console.log(alert(1) || 2 || alert(3));
+// console.log(1&&null&&2);
+// alert(alert(1)&&alert(2));
+// alert(null || 2 && 3 || 4);
 
 // Write an if condition to check that age is between 14 and 90 inclusively.
 // “Inclusively” means that age can reach the edges 14 or 90.
