@@ -261,3 +261,37 @@ if(userName === 'Admin'){
 }else{
     alert(`I dont't know you`);
 }
+
+// // Nullish coalescing operator '??'
+// let user;
+// alert(user ?? "Anonymous");
+
+//Loops : while,do-while and for
+//while syntx
+/* while(condition){
+    //code
+}*/
+// let i = 0;
+// while(i<3){
+//     console.log(i);
+//     i++;
+// }
+
+//do-while syntax
+/*do{
+    //code
+}while(condition);
+*/
+// let j=0;
+// do{
+//     console.log(j);
+//     j++;
+// }while(j<3);
+
+//for syntax
+/*for(begin; condition; step){
+    //code
+}*/
+// for(let i=0;i<3;i++){
+//     console.log(i);
+// }
