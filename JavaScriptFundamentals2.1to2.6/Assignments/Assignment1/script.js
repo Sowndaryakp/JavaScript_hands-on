@@ -81,3 +81,46 @@ let inputString =prompt("enter a input string");
 alert(inputString.replace(/[aeiou]/gi,""));
 
 // ASSIGNMENT 02
+// Write a function that takes two numbers as input and returns the sum of the two numbers as a string.
+const prompt=require('prompt-sync')();
+function sumToString(num1, num2){
+    let sum = num1 + num2;
+    let sumString= sum.toString();
+    return sumString;
+}
+let result= sumToString(10,15);
+console.log(result); 
+
+// Write a JavaScript program that takes three numbers as input and outputs the largest of the three numbers.
+function findLargest(num1,num2,num3){
+    let largestNumber = Math.max(num1, num2, num3);
+    return largestNumber;
+}
+let num1=14,num2=8,num3=26;
+
+let result = findLargest(num1,num2,num3);
+console.log(result);
+
+// Write a JavaScript program that takes a string as input and outputs the string in reverse order.
+// function reverseString(inputString){
+//     let reversedString = inputString.split('').reverse().join('');
+//     return reversedString;
+// }
+// let input = "Hai Sowndarya!";
+// let result = reverseString(input);
+// console.log("original" + input);
+// console.log('reversed '+result);
+
+// Write a program to find the Sum of the digits of a given number.
+function sumOfDigits(number) {
+    let numString = number.toString();
+    let sum = 0;
+   for (let i = 0; i < numString.length; i++) {
+      sum += parseInt(numString[i]);
+    }
+    return sum;
+  }
+  let inputNumber = 12345;
+  let result = sumOfDigits(inputNumber);
+  console.log("Sum of digits of " + inputNumber + ": " + result);
+  
