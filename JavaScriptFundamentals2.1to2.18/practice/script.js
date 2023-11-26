@@ -277,6 +277,15 @@ const prompt=require("prompt-sync")();
 //     console.log(i);
 //     i++;
 // }
+// let i = 3, j;
+// while (i) { // when i becomes 0, the condition becomes falsy, and the loop stops
+//   console.log("i: "+ i );
+//     j= i--;
+//     console.log("j: " +j);
+// }
+// let i = 3;
+// while (i) console.log(--i);
+
 
 //do-while syntax
 /*do{
@@ -288,6 +297,11 @@ const prompt=require("prompt-sync")();
 //     console.log(j);
 //     j++;
 // }while(j<3);
+// let i = 0;
+// do {
+//   console.log( i );
+//  ++i;
+// } while (i < 3);
 
 //for syntax
 /*for(begin; condition; step){
@@ -295,5 +309,38 @@ const prompt=require("prompt-sync")();
 }*/
 // for(let i=0;i<3;i++){
 //     console.log(i);
+
+// for(let i=0;i<10;i++){
+//     if(i%2==0) continue;//continue directive stops executing the body and passes control to the next iteration of for (with the next number).
+//     console.log(i);
 // }
 
+// outer: for(let i=0;i<3;i++){
+//     for(let j=0;j<3;j++){
+//         let input = prompt('Value at coords(${i},${j}','');
+//         if(!input) break outer;
+//     }
+// }
+// console.log('Done!');
+
+// for(let i =2;i<=10;i++){
+//     if(i%2==0)
+//     console.log(i);
+// }
+
+// //Task
+// let num;
+// do{
+//     num=prompt("enter a greater than 100?", 0);
+// }while(num<=100 && num);
+
+// let n=10;
+// nextPrime:
+// for(let i=2;i<=n;i++){
+//     for(let j=2;j<i;j++){
+//         if(i%j==0) {
+//             continue nextPrime;
+//         }
+//     }
+//     console.log(i);
+// }
