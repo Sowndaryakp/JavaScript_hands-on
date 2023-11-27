@@ -1,5 +1,5 @@
 const prompt=require("prompt-sync")();
-let numberOfLines = parseInt(prompt("Enter the number of lines for the pyramid:"));
+let numberOfLines = parseInt(prompt("enter the number of lines for the pyramid:"));
 if (!isNaN(numberOfLines)) {
     for (let i = 1; i <= numberOfLines; i++) {
         let line = "";
@@ -15,5 +15,5 @@ if (!isNaN(numberOfLines)) {
         console.log(line);
     }
 } else {
-    console.log("Invalid input. Please enter a valid number for the number of lines.");
+    console.log("invalid input. please enter a valid number.");
 }

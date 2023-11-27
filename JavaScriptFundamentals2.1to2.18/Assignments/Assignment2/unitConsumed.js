@@ -14,8 +14,8 @@ if(!isNaN(unitsConsumed)){
     if(totalBill > 2000){
         totalBill+= 0.03 * totalBill;
     }
-    console.log("Units Consumed: " + unitsConsumed);
-    console.log("Total Bill: ₹" + totalBill.toFixed(2));
+    console.log("units Consumed: " + unitsConsumed);
+    console.log("total Bill: ₹" + totalBill.toFixed(2));
 } else {
-    console.log("Invalid input. Please enter a valid number for units consumed.");
+    console.log("invalid input. please enter a valid number.");
 }

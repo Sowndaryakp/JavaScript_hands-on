@@ -56,6 +56,66 @@
 //     console.log('no');
 // }
 
-let x = 1;
-let y = x++;
-console.log(x,y);
+// let x = 1;
+// let y = x++;
+// console.log(x,y);
+// let a=2;
+// let b=1;
+// let result;
+
+// if (a + b < 4) {
+//   result = 'Below';
+// } else {
+//   result = 'Over';
+// }
+// console.log(result);
+
+
+// result = (a+b<4)?'Below':'After';
+// let message;
+// let login = '';
+
+// message = (login == 'Employee')? 'Hello':
+// (login == 'Director')? 'Greetings':'No login';
+
+// console.log(message);
+
+// let num1 = 4;
+// let num2 = 7;
+// if((num1 || num2 > 5)|| (num1 > 5 && num2 > 5)){
+//   console.log("True");
+//   console.log("Both are greater than 5");
+
+// }else{
+//   console.log("False");
+// }
+// else if(num1 != num2){
+//   console.log("False");
+// }
+// else if(num1 && num2 >5){
+//   console.log("Both are greater");
+// }
+// if(num1 >5 && num2 >5){
+//   console.log("Both are greater than 5");
+// }
+// else{
+//   console.log("False");
+// }
+
+// let result = 'abc' && 'def' || 'gfh';
+// console.log(result);
+
+// function test(){
+//   return 6;
+// }
+// console.log(console.log(1) || console.log(3) || 2 );
+
+
+let age = 13;
+if(!(age>14 && age <90)){
+  console.log(true);
+}
+else
+{
+  console.log(false);
+}
